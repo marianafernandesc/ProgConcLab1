@@ -65,8 +65,8 @@ int main() {
         pthread_join(threads[i], NULL); 
     }
 
-/*verificacao das multiplicacoes*/
+    /*verificacao das multiplicacoes*/
     verificar = verificar_vetor();
 
-return 0;
+    return 0;
 }
